@@ -1,2 +1,10 @@
-<Favorite film>Split</Favorite film>[B
-<Favorite series>Friends</Favorite series>
+<preferences>
+	<favorite_movie> Split </favorite_movie>
+	<favorite_series> Friends </favorite_series>
+	<favorite_food> Meet </favorite_food>
+	<favorite_season>Summer</favorite_season> 
+	<favorite_countries>
+		<1>Spain<1/>
+		<2>Portugal</2>
+	<favorite_countries>
+</preferences>
