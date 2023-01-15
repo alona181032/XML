@@ -1,5 +1,21 @@
-<Title>Unable button</Title>
-<STR>Click button Submit</STR>
-<ER>Button working</ER>
-<AR>Button not working</AR>
-<Severity>Critical</Severity>
+<bug_report>
+   <project>Govar</project>
+   <version>1.1</version>
+   <id> №1 </id>
+   <summary> When you click on the 'A to Z' filtering button on the main page of the application, chaotic filtering of lists occurs </summary>
+   <step_to_reproduce>
+     <1> Open Govar application </1>
+     <2> Create 15 lists that will start respectively (A, a, D, 3, :, U, u, SH, SH, 5, @, Ї, ї, -, d) </2>
+     <3> Click on the 'A to Z' filter button on the main page of the application </3>
+   </step_to_reproduce>
+   <actual_result> Lists sorted randomly </actual_result>
+   <expected_result>
+     <1> Lists are sorted in order: symbols, numbers, Latin letters (upper case first), Cyrillic letters (upper case first)</1>
+     <2> Correct order : (-, :, @, 3, 5, A, a, D, d, U, u, Ї, ї, W, w) </2>
+   </expected_result>
+   <severity>Minor</severity>
+   <priority>Low</priority>
+   <status>New</status>
+   <environment> Samsung A72, Android 12 </environment>
+   <author> Alona Bohdanets </author>
+</bug_report>
